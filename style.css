@@ -287,3 +287,47 @@ h2::after {
 #imageUpload {
     cursor: pointer;
 }
+/* ================= MOBILE RESPONSIVE ================= */
+
+@media (max-width: 768px) {
+
+  /* Navbar */
+  .nav-links {
+    display: none;
+  }
+
+  .social-links {
+    display: none;
+  }
+
+  /* Hero */
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+
+  /* Services */
+  .services {
+    grid-template-columns: 1fr;
+  }
+
+  /* Projects */
+  .projects {
+    grid-template-columns: 1fr;
+  }
+
+  /* Skills */
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Section padding */
+  section {
+    padding: 60px 15px;
+  }
+
+}
